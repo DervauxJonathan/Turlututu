@@ -1,30 +1,34 @@
 nav {
   display: grid;
-  grid-template-columns: 90% 10%;
+  grid-template-columns: 5% 80% 10% 5%;
   grid-template-rows: 100%;
-  height: 35px;
-  align-items: center;
+  height: 45px;
+  background-color: #333333;
+}
+
+nav li {
+padding: 10px 15px;
 }
 
 .droite {
-    columns: 1;
+    grid-column: 2;
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: left;
     background-color: #333333;
     color: white;
   }
 .gauche {
-  columns: 2;
-  margin: 0;
-  padding: 0;
+  grid-column: 3;
   display: flex;
-  justify-content: right;
+  list-style: none;
+  margin: 0;
+  padding: 10px 15px;
   background-color: #333333;
   color: white;
 }
+
   header {
   display: grid;
   grid-template-columns: 25% 75%;
@@ -34,7 +38,31 @@ nav {
   justify-content: center;
   background-color: #1E93CC;
 }
+
+#profil {
+  text-align: center;
+}
+
 #profil img {
   columns: 1;
   height: 185px;
+  margin: 0 auto;
+}
+
+.bouton {
+  margin-top: 20px;
+}
+.bouton .button {
+  font-size: 23px;
+  height: 66px;
+  width: 267px;
+  text-decoration: none;
+  background-color: orange;
+  border: white solid 1px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
 }
