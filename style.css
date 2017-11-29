@@ -49,9 +49,15 @@ padding: 10px 15px;
   margin: 0 auto;
 }
 
+.services {
+  padding-left: 100px;
+  padding-bottom: 50px;
+  }
+
 .bouton {
-  margin-top: 20px;
+  margin-top: 35px;
 }
+
 .bouton .button {
   font-size: 23px;
   height: 66px;
