@@ -1,0 +1,40 @@
+nav {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 100%;
+  height: 35px;
+  align-items: center;
+}
+
+.droite {
+    columns: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    background-color: #333333;
+    color: white;
+  }
+.gauche {
+  columns: 2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  background-color: #333333;
+  color: white;
+}
+  header {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100%;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  background-color: #1E93CC;
+}
+#profil img {
+  columns: 1;
+  height: 185px;
+}
