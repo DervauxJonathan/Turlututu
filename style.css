@@ -1,6 +1,6 @@
 nav {
   display: grid;
-  grid-template-columns: 5% 80% 10% 5%;
+  grid-template-columns: 5% 75% 15% 5%;
   grid-template-rows: 100%;
   height: 45px;
   background-color: #333333;
@@ -9,7 +9,18 @@ nav {
 nav li {
 padding: 10px 15px;
 }
-
+li a {
+  text-decoration: none;
+  color: white;
+}
+.gauche a {
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+}
+.fa-user-circle {
+  text-decoration: none;
+}
 .droite {
     grid-column: 2;
     display: flex;
@@ -142,6 +153,25 @@ padding: 10px 15px;
 }
 .spon2 img {
   height: 100px;
-
-
+}
+.buttton {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  height: 200px;
+  padding-top: 50px;
+  background-color: white;
+  align-content: center;
+}
+.buttton .but1 {
+  font-size: 23px;
+  height: 66px;
+  width: 267px;
+  background-color: #165882;
+  text-align: center;
+}
+.but1 a, .but2 a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
 }
