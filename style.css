@@ -41,6 +41,7 @@ padding: 10px 15px;
 
 #profil {
   text-align: center;
+  padding-left: 100px;
 }
 
 #profil img {
@@ -71,4 +72,76 @@ padding: 10px 15px;
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 5px;
+}
+.deadlines {
+  text-align: center;
+  color: black;
+  height: 70px;
+  font-size: 26px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 5% 45% 45% 5%;
+  grid-template-rows: 50% 50%;
+  height: 380px;
+  background-color: #1E93CC;
+  color: white;
+  font-size: 14px;
+  margin-top: -13px;
+}
+
+.container h3 {
+  font-size: 26px;
+}
+.cont1 {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 25px;
+}
+.cont2 {
+  grid-column: 3;
+  grid-row: 1;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.cont3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.cont4 {
+  grid-column: 3;
+  grid-row: 2;
+  margin-left: 25px;
+}
+.grey {
+  font-size: 26px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  height: 70px;
+}
+.sponsors {
+  height: 290px;
+  background-color: #EEEEEE;
+  margin-top: -13px;
+  text-align: center;
+}
+.spon1 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 50px;
+}
+.spon2 {
+  padding-top: 60px;
+}
+.spon1 img {
+  height: 50px;
+}
+.spon2 img {
+  height: 100px;
+
+
 }
