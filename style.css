@@ -155,23 +155,41 @@ li a {
   height: 100px;
 }
 .buttton {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 100%;
-  height: 200px;
-  padding-top: 50px;
+  width: 100%;
+  height: 196px;
   background-color: white;
-  align-content: center;
 }
-.buttton .but1 {
+.but3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 35px;
+}
+.blue1, .blue2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 23px;
   height: 66px;
   width: 267px;
   background-color: #165882;
-  text-align: center;
+  border-radius: 5px;
 }
-.but1 a, .but2 a {
+.blue1 a,.blue2 a, .orange a{
   text-decoration: none;
   color: white;
-  text-align: center;
+}
+.orange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  height: 66px;
+  width: 267px;
+  background-color: #E99002;
+  border-radius: 5px;
+}
+#bottom {
+  text-decoration: none;
+  color: white;
 }
