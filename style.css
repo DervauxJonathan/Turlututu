@@ -161,8 +161,9 @@ li a {
 }
 .but3 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  padding-right: 15px;
   padding-top: 35px;
 }
 .blue1, .blue2 {
@@ -174,6 +175,7 @@ li a {
   width: 267px;
   background-color: #165882;
   border-radius: 5px;
+  margin: 0 5px;
 }
 .blue1 a,.blue2 a, .orange a{
   text-decoration: none;
@@ -188,8 +190,28 @@ li a {
   width: 267px;
   background-color: #E99002;
   border-radius: 5px;
+  margin: 0 5px;
 }
-#bottom {
+
+footer {
+  display: inline-block;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  padding-top: 15px;
+
+}
+footer .footer a {
   text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-right: 1px dotted white;
+  font-size: 12px;
+}
+.noborder p {
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  padding: 10px 15px;
   color: white;
 }
